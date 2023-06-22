@@ -1,0 +1,55 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CodeNarc.AbstractClassWithoutAbstractMethod" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="CodeNarc.BracesForTryCatchFinally" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="catchOnSameLineAsClosingBrace" value="true" />
+      <option name="catchOnSameLineAsOpeningBrace" value="true" />
+      <option name="finallyOnSameLineAsClosingBrace" value="true" />
+      <option name="finallyOnSameLineAsOpeningBrace" value="true" />
+    </inspection_tool>
+    <inspection_tool class="CodeNarc.BuilderMethodWithSideEffects" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="CodeNarc.ClassEndsWithBlankLine" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="CodeNarc.ClassJavadoc" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="CodeNarc.ClassStartsWithBlankLine" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="CodeNarc.CompileStatic" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="doNotApplyToClassNames" value="*Spec,*Specification" />
+      <option name="doNotApplyToFileNames" value="*.gradle" />
+    </inspection_tool>
+    <inspection_tool class="CodeNarc.ElseBlockBraces" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="CodeNarc.FactoryMethodName" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="CodeNarc.FileEndsWithoutNewline" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="CodeNarc.ImplicitClosureParameter" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="CodeNarc.ImplicitReturnStatement" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="CodeNarc.Instanceof" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="CodeNarc.JUnitPublicNonTestMethod" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="doNotApplyToClassNames" value="*Spec,*Specification" />
+    </inspection_tool>
+    <inspection_tool class="CodeNarc.MethodName" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="doNotApplyToClassNames" value="*Spec,*Specification" />
+    </inspection_tool>
+    <inspection_tool class="CodeNarc.MethodReturnTypeRequired" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+      <option name="doNotApplyToFilesMatching" value=".*Controller\.groovy" />
+    </inspection_tool>
+    <inspection_tool class="CodeNarc.MissingBlankLineBeforeAnnotatedField" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="CodeNarc.NoDef" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="doNotApplyToClassNames" value=".*Test\.groovy" />
+      <option name="doNotApplyToFilesMatching" value=".*(Controller|Test)\.groovy" />
+    </inspection_tool>
+    <inspection_tool class="CodeNarc.Println" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="doNotApplyToFilesMatching" value=".*Test\.groovy" />
+    </inspection_tool>
+    <inspection_tool class="CodeNarc.TrailingComma" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="CodeNarc.TrailingWhitespace" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="CodeNarc.UnnecessaryElseStatement" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="CodeNarc.UnnecessaryGString" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="CodeNarc.UnnecessaryGetter" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="CodeNarc.UnnecessarySetter" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="CodeNarc.UnnecessaryToString" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="CodeNarc.VariableTypeRequired" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="doNotApplyToFilesMatching" value=".*Test\.groovy" />
+      <option name="ignoreVariableNames" value="" />
+    </inspection_tool>
+    <inspection_tool class="GrMethodMayBeStatic" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
